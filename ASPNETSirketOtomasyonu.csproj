@@ -121,6 +121,11 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Genel\birimlerdetay.aspx" />
+    <Content Include="Genel\duyurular.aspx" />
+    <Content Include="Genel\hakkimizda.aspx" />
+    <Content Include="Genel\iletisim.aspx" />
+    <Content Include="Genel\personeller.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -140,8 +145,8 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
       <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -191,6 +196,41 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Genel\birimlerdetay.aspx.cs">
+      <DependentUpon>birimlerdetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Genel\birimlerdetay.aspx.designer.cs">
+      <DependentUpon>birimlerdetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Genel\duyurular.aspx.cs">
+      <DependentUpon>duyurular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Genel\duyurular.aspx.designer.cs">
+      <DependentUpon>duyurular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Genel\hakkimizda.aspx.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Genel\hakkimizda.aspx.designer.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Genel\iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Genel\iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Genel\personeller.aspx.cs">
+      <DependentUpon>personeller.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Genel\personeller.aspx.designer.cs">
+      <DependentUpon>personeller.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -264,6 +304,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AdminPaneli\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>

@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="ce05c7d109c346babac1012791547504" Name="Diagram1">
+      <Diagram DiagramId="e32a6b45c92f447485e740aee77c1ac9" Name="Diagram1">
         <EntityTypeShape EntityType="ASPNETSirketModel.Birimler" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ASPNETSirketModel.Duyurular" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ASPNETSirketModel.Iletisim" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />

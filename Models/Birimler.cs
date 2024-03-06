@@ -21,7 +21,7 @@ namespace ASPNETSirketOtomasyonu.Models
         }
     
         public int ID { get; set; }
-        public string Brim { get; set; }
+        public string Birim { get; set; }
         public string Aciklama { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

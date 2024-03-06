@@ -10,7 +10,7 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Brim" Type="varchar" MaxLength="50" />
+          <Property Name="Birim" Type="varchar" MaxLength="50" />
           <Property Name="Aciklama" Type="text" />
         </EntityType>
         <EntityType Name="Duyurular">
@@ -198,7 +198,7 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Brim" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Birim" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Personellers" Relationship="Self.FK_Personeller_Birimler" FromRole="Birimler" ToRole="Personeller" />
         </EntityType>
@@ -394,7 +394,7 @@
             <EntityTypeMapping TypeName="ASPNETSirketModel.Birimler">
               <MappingFragment StoreEntitySet="Birimler">
                 <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Brim" ColumnName="Brim" />
+                <ScalarProperty Name="Birim" ColumnName="Birim" />
                 <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
               </MappingFragment>
             </EntityTypeMapping>

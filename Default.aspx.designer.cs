@@ -13,14 +13,5 @@ namespace ASPNETSirketOtomasyonu
 
     public partial class _Default
     {
-
-        /// <summary>
-        /// TextBox1 denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
     }
 }
