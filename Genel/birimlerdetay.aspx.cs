@@ -21,6 +21,10 @@ namespace ASPNETSirketOtomasyonu.Genel
                 var model = db.Birimlers.FirstOrDefault(x => x.ID == id);
                 lblBirim.Text = model.Birim + "Birimi";
                 lblAciklama.Text = model.Aciklama;
+
+                var personeller = db.Personellers.Where(x => x.BirimID == id).ToList();
+                Repeater1.DataSource = personeller;
+                Repeater1.DataBind();
             }
         }
     }
